@@ -1,0 +1,377 @@
+body {
+	background-color: #202020;
+}
+body, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #202020;
+	line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+}
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 48px;
+	text-align: right;
+}
+h2 {
+	
+	font-size: 72px;
+	font-weight: bolder;
+	line-height: 144px;
+	text-align: center;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 20px 0 5px 0;
+	
+}
+h4 {
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+}
+h5 {
+	font-size: 20px;
+	line-height: 28px;
+}
+h6 {
+	font-size: 20px;
+	line-height: 28px;
+}
+div, nav, ul {
+	background-color: transparent;
+	margin: 0;
+}
+a, a:visited, a:hover, a:active {
+	color: #08C;
+	text-decoration: none;
+}
+.body-container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 24px 24px 24px 24px;
+}
+
+.main-container {
+	height: 500px;
+	padding: 10px 20px;
+	float: left;
+}
+
+.top-content {
+	height: 140px;
+}
+.bottom-content {
+	height: 580px;
+}
+.clear {
+	clear: both;
+}
+.closer {
+	text-align: center;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6,
+ .span7, .span8, .span9, .span10, .span11, .span12 {
+ 	float: left;
+}
+.span1 {
+	width: 8%;
+}
+.span2 {
+	width: 17%; /* +1*/
+}
+.span3 {
+	width: 25%; /* +1*/
+}
+.span4 {
+	width: 33%; /* +1*/
+}
+.span5 {
+	width: 42%; /* +2*/
+}
+.span6 {
+	width: 50%; /* +2*/
+}
+.span7 {
+	width: 58%; /* +2*/
+}
+.span8 {
+	width: 67%; /* +3*/
+}
+.span9 {
+	width: 75%; /* +3*/
+}
+.span10 {
+	width: 83%; /* +3*/
+}
+.span11 {
+	width: 92%; /* +4*/
+}
+.span12 {
+	width: 100%; /* +4*/
+}
+
+/* Header Bar */
+.header-bar {
+	height: 160px;
+	cursor: pointer;
+}
+.header-bar * {
+	cursor: auto;
+}
+
+/* Remember Me Section */
+.remember-me {
+	float: left;
+	text-align: left;
+	height: 100px;
+	margin: 20px 30px;
+	padding: 10px 10px;
+	background-color: #eee;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+}
+.remember-me h5, ul, li, a {
+	background-color: inherit;
+}
+
+/* Contact Me Section */
+.contact-me {
+	float: right;
+	text-align: right;
+	height: 100px;
+	margin: 4px 30px;
+	padding: 10px 10px;
+}
+
+
+
+.icon-list ul {
+	list-style: none;
+}
+
+.icon-list ul > li {
+	float: left;
+	margin: 0 8px;
+}
+
+.icon-list a {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+.icon-list #oburt-facebook {
+	background: url('img/facebook.png');
+}
+.icon-list #oburt-facebook:hover {
+	background: url('img/facebook_hover.png');
+}
+.icon-list #oburt-linkedin {
+	background: url('img/linkedin.png');
+}
+.icon-list #oburt-linkedin:hover {
+	background: url('img/linkedin_hover.png');
+}
+.icon-list #oburt-twitter {
+	background: url('img/twitter.png');
+}
+.icon-list #oburt-twitter:hover {
+	background: url('img/twitter_hover.png');
+}
+.icon-list #oburt-tumblr {
+	background: url('img/tumblr.png');
+}
+.icon-list #oburt-tumblr:hover {
+	background: url('img/tumblr_hover.png');
+}
+.icon-list #oburt-email {
+	background: url('img/email.png');
+}
+.icon-list #oburt-email:hover {
+	background: url('img/email_hover.png');
+}
+
+/* Custom tab bar */
+.nav-bar {
+	padding: 0;
+}
+.nav-tabs {
+	display: block;
+	list-style: none;
+}
+.nav-tabs li {
+	display: list-item;
+	float: left;
+	width: 24%;
+}
+.nav-tabs a {
+	display: block;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 14px 0 8px 0;
+	margin: 0 1px 0px 1px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: #202020;
+	border: none;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+.nav-tabs a:hover {
+	color: #202020;
+	background-color: #fff;
+}
+.nav-tabs a.active, .nav-tabs a.active:hover {
+	color: #202020;
+	background-color: #fff;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.tab-content {
+	height: 700px;
+	/*-webkit-border-radius: 24px 24px 24px 24px;
+	border-radius: 24px 24px 24px 24px;*/
+	border-top: 6px solid #202020;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane.active {
+	display: block;
+}
+
+/* Ultiworld Color Schemes */
+div.ultiworld-scheme {
+	border-color: #C8252C;
+}
+.ultiworld-scheme > .toggle:hover,
+.ultiworld-scheme > .toggle.active, 
+.ultiworld-scheme > .toggle.active:hover {
+	background-color: #C8252C;
+	color: white;
+}
+.ultiworld-scheme .carousel-control:hover {
+	background-color: #C8252C;
+}
+
+
+/* Fondu Color Schemes */
+div.fondu-scheme {
+	border-color: #6E3451;
+}
+.fondu-scheme > .toggle:hover,
+.fondu-scheme > .toggle.active, 
+.fondu-scheme > .toggle.active:hover {
+	background-color: #6E3451;
+	color: white;
+}
+.fondu-scheme .carousel-control:hover {
+	background-color: #6E3451;
+}
+
+
+/* Brandhim Color Schemes */
+div.brandhim-scheme {
+	border-color: #ff66ff;
+}
+.brandhim-scheme > .toggle:hover,
+.brandhim-scheme > .toggle.active, 
+.brandhim-scheme > .toggle.active:hover {
+	background-color: #ff66ff;
+	color: white;
+}
+.brandhim-scheme .carousel-control:hover {
+	background-color: #ff66ff;
+}
+
+/* NYU Color Schemes */
+div.nyu-scheme {
+	border-color: #57068C;
+}
+.nyu-scheme > .toggle:hover,
+.nyu-scheme > .toggle.active, 
+.nyu-scheme > .toggle.active:hover {
+	background-color: #57068C;
+	color: white;
+}
+.nyu-scheme .carousel-control:hover {
+	background-color: #57068C;
+}
+
+/* Role Section */
+.roles {
+	width: 450px;
+	margin-top: 30px;
+	float: right;
+	color: #bbb;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+.roles li {
+	width: 150px;
+	margin: 8px 0;
+	float: left;
+	display: inline-block;
+}
+.role-selected {
+	color: #202020;
+}
+
+/* Fondu Classes */
+.fondu-iphone {
+	width: 192px;
+	height: 366px;
+	margin: 0 auto;
+	background: url('img/iphone_160.png');
+} 
+.fondu-iphone #fonduCarousel {
+	position: relative;
+	top: 62px;
+}
+.fondu-iphone #fonduCarousel img {
+	width: 160px;
+	margin-left: 15px;
+}
+.fondu-img-left {
+	float: left;
+}
+.fondu-img-right {
+	float: right;
+}
+
+/* NYU Classes */
+.nyu-row:nth-child(odd) {
+	background: #bbb;
+}
+.nyu-row:nth-child(even) {
+	background: #ccc;
+}
+.nyu-row img {
+	float: left;
+	width: 160px;
+	height: 120px;
+}
+
+/*Brandhim Classes */
+.brandhim-col {
+	margin-top: 60px;
+}
+
+/*Ultiworld Classes */
+.ultiworld {
+
+}
