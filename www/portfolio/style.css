@@ -352,6 +352,25 @@ div.nyu-scheme {
 .fondu-img-right {
 	float: right;
 }
+.fondu-blurbs p {
+	height: 60px;
+	margin: 5px 0 5px 0;
+}
+.fondu-blurbs img {
+	height: 60px;
+}
+.fondu-blurbs .clearfix {
+	height: 12px;
+}
+.arrow-down {
+	background: url('img/arrow_down.png') center no-repeat;
+}
+.arrow-right {
+	background: url('img/arrow_right.png') center no-repeat;
+}
+.arrow-up {
+	background: url('img/arrow_up.png') center no-repeat;
+}
 
 /* NYU Classes */
 .nyu-row:nth-child(odd) {
@@ -372,6 +391,13 @@ div.nyu-scheme {
 }
 
 /*Ultiworld Classes */
-.ultiworld {
-
+.ultiworld-blurbs p {
+	width: 210px;
+	margin: 12px 10px;
 }
+#ultiworldCarousel {
+	border: 5px solid #202020;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+

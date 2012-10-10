@@ -11,7 +11,11 @@ $(document).ready( function() {
 		e.stopPropagation();
 	});
 	$('.nav-bar a').click(tabToggle);
-	//$('.nav-bar a').hover(tabHoverIn, tabHoverOut)
+	$('.ultiworld-blurbs a').click(function(e) {
+		$('#ultiworldCarousel .active').removeClass('active');
+		console.log($(this).attr('href'));
+		$().addClass('active');
+	});
 });
 
 function tabToggle (e) {
@@ -38,25 +42,12 @@ function tabToggle (e) {
 	});
 }
 
-function tabHoverIn (e) {
-	var schemeTarget = $(this).attr('href').replace('#','') + '-scheme';
-	if(currentScheme == schemeTarget) {
-		return true;
+function ultiworldSwitch(href) {
+	$active = $('#ultiworldCarousel .active');
+	if($active.attr('id') == href) {
+		return false;
+	} else {
+		$('#ultiworldCarousel .active').removeClass('active');
+		$(href+'').addClass('active');
 	}
-	var $divToBorder = $('.tab-content');
-	$divToBorder.removeClass(currentScheme);
-	$divToBorder.addClass(schemeTarget);
-	previousScheme = currentScheme;
-	currentScheme = schemeTarget;
-
-}
-
-function tabHoverOut (e) {
-	if(currentScheme == previousScheme) {
-		return true;
-	}
-	var $divToBorder = $('.tab-content');
-	$divToBorder.removeClass(currentScheme);
-	$divToBorder.addClass(previousScheme);
-	currentScheme = previousScheme;
 }
