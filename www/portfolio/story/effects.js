@@ -9,10 +9,10 @@ $(document).ready( function() {
 
 	$('.header').hover(
 		function() {
-			$('.header-right').animate({top:'0'});
+			$('.header-right').stop().animate({top:'0'});
 		},
 		function() {
-			$('.header-right').animate({top:'-56px'});
+			$('.header-right').stop().animate({top:'-56px'});
 		}
 	);
 
