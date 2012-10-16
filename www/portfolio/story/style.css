@@ -1,0 +1,52 @@
+.footer a {
+	float: left;
+}
+.progtog {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 4px 16px;
+	float: left;
+	background-color: #111;
+}
+.progtog.filled {
+	background-color: #444;
+}
+.progtog.active {
+	background-color: #fff;
+}
+.page {
+	display: none;
+}
+.header {
+	height: 60px;
+	position: relative;
+}
+.header-left {
+	height: 60px;
+	width: 20%;
+	float: left;
+	color: #202020;
+	background-color: white;
+	border-radius: 0 0 4px 4px;
+	text-align: center;
+}
+.header-right {
+	float: right;
+	position: relative;
+	top: -56px;
+	left: -4px;
+	height: 60px;
+	width: 80%;
+	color: #202020;
+	background-color: white;
+	border-radius: 0 0 4px 0;
+}
+.header-right ul {
+	float: right;
+}
+.header-right li {
+	list-style: none;
+	float: left;
+	margin: 0px 16px;
+}
