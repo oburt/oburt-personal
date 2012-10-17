@@ -150,10 +150,18 @@ textarea {
 }
 
 /* Icon List */
-.oburt-icon-list a {
+.oburt-icon-list ul {
+	list-style: none;
+}
+.oburt-icon-list li {
+	width: 25%;
 	float: left;
 	display: inline-block;
-	width: 25%;
+	text-align: center;
+}
+.oburt-icon-list a {
+	display: inline-block;
+	width: 64px;
 	height: 64px;
 	background: center no-repeat;
 }

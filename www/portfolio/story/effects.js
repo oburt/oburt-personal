@@ -22,6 +22,10 @@ $(document).ready( function() {
 });
 
 function pageTurn(e) {
+	if($(this).hasClass('disabled')) {
+		return false;
+	}
+
 	var currentPageNum = parseInt($('.page.active').attr('id').substring(4));
 	var newPageNum = parseInt($(this).attr('href').substring(5));
 	console.log('curr '+currentPageNum);
@@ -43,14 +47,27 @@ function pageTurn(e) {
 	$nextBtn.attr('href','#page'+(newPageNum+1));
 
 	if(newPageNum == 0) {
-		$prevBtn.css({visibility:'hidden'});
+		if(!$prevBtn.hasClass('disabled')) {
+			$prevBtn.addClass('disabled')
+		}
+		if($nextBtn.hasClass('disabled')) {
+			$nextBtn.removeClass('disabled')
+		}
 		$nextBtn.css({visibility:'visible'});
 	} else if(newPageNum == 6) {
-		$prevBtn.css({visibility:'visible'});
-		$nextBtn.css({visibility:'hidden'});
+		if($prevBtn.hasClass('disabled')) {
+			$prevBtn.removeClass('disabled')
+		}
+		if(!$nextBtn.hasClass('disabled')) {
+			$nextBtn.addClass('disabled')
+		}
 	} else {
-		$prevBtn.css({visibility:'visible'});
-		$nextBtn.css({visibility:'visible'});
+		if($prevBtn.hasClass('disabled')) {
+			$prevBtn.removeClass('disabled')
+		}
+		if($nextBtn.hasClass('disabled')) {
+			$nextBtn.removeClass('disabled')
+		}
 	}
 	
 }
