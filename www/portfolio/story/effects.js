@@ -5,6 +5,7 @@ $(document).ready( function() {
 	$('#page3').load('page3.html');
 	$('#page4').load('page4.html');
 	$('#page5').load('page5.html');
+	$('#page6').load('page6.html');
 	$('#page0').addClass('active').fadeIn();
 
 	$('.header').hover(
