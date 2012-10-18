@@ -13,7 +13,7 @@ $(document).ready( function() {
 			$('.header-right').stop().animate({top:'0'});
 		},
 		function() {
-			$('.header-right').stop().animate({top:'-68px'});
+			$('.header-right').stop().animate({top:'-72px'});
 		}
 	);
 
