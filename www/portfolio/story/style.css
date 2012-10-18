@@ -132,7 +132,14 @@ textarea {
 	display: none;
 	position: absolute;
 }
+body {
+	font-family: "museo-slab",serif;
+}
+p, h2, h3, .content {
+	color: #f3f3f3;
+}
 p {
+	font-weight: 300;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 12px;
@@ -143,10 +150,21 @@ h1 {
 	line-height: 48px;
 	margin: 16px 0;
 	text-transform: uppercase;
-	font-family: "gothic-open-shaded",sans-serif;
+}
+h2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	margin: 48px 0;
+}
+h3 {
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 28px;
+	margin: 16px 0;
 }
 img.img-polaroid {
-	width: 95%;
+	max-width: 95%;
 	max-height: 100%;
 	margin: 1%;
 }
@@ -161,6 +179,7 @@ img.img-polaroid {
 	color: #202020;
 	background-color: white;
 	text-align: center;
+	font-family: "gothic-open-shaded",sans-serif;
 }
 .header-right {
 	float: right;
@@ -171,6 +190,7 @@ img.img-polaroid {
 	width: 69%;
 	color: #202020;
 	background-color: white;
+	font-family: "futura-pt",sans-serif;
 }
 .header-right ul {
 	float: right;
@@ -234,4 +254,50 @@ img.img-polaroid {
 }
 .oburt-icon-list #oburt-email:hover {
 	background-image: url('img/email_hover.png');
+}
+
+/* Special Spans */
+span.skill, span.time, span.nyu, span.fondu, span.ultiworld {
+	/*text-shadow: 2px 2px 0 #383838;*/
+}
+span.skill {
+	/*color: #468847;*/
+	color: #4FE24F;
+}
+span.time {
+	/*color: #3A87AD;*/
+	color: #59CAFF;
+}
+span.nyu {
+	/*color: #57068C;*/
+	color: #BC59FF;
+}
+span.fondu {
+	/*color: #6E3451;*/
+	/*color: #C45E91;*/
+	color: #FF59AC;
+}
+span.ultiworld {
+	/*color: #C8252C;*/
+	/*color: #FF2F38;*/
+	color: #FF5961;
+}
+
+/* iPhone Carousel */
+.fondu-iphone {
+	width: 122px;
+	height: 230px;
+	margin: 0 auto;
+	background: url('img/iphone_122x230.png');
+} 
+#fonduCarousel {
+	width: 99px;
+	top: 41px;
+	margin: 0 12px;
+}
+#fonduCarousel .carousel-control.left {
+	left: -80%;
+}
+#fonduCarousel .carousel-control.right {
+	left: 135%;
 }
