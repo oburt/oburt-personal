@@ -49,27 +49,20 @@ function pageTurn(e) {
 	$nextBtn.attr('href','#page'+(newPageNum+1));
 
 	if(newPageNum == 0) {
-		if(!$prevBtn.hasClass('disabled')) {
-			$prevBtn.addClass('disabled')
-		}
-		if($nextBtn.hasClass('disabled')) {
-			$nextBtn.removeClass('disabled')
-		}
-		$nextBtn.css({visibility:'visible'});
+		if(!$prevBtn.hasClass('disabled')) 
+			$prevBtn.addClass('disabled').text('First Page');
+		if($nextBtn.hasClass('disabled'))
+			$nextBtn.removeClass('disabled').text('Next Page');
 	} else if(newPageNum == 6) {
-		if($prevBtn.hasClass('disabled')) {
-			$prevBtn.removeClass('disabled')
-		}
-		if(!$nextBtn.hasClass('disabled')) {
-			$nextBtn.addClass('disabled')
-		}
+		if($prevBtn.hasClass('disabled'))
+			$prevBtn.removeClass('disabled').text('Prev Page');
+		if(!$nextBtn.hasClass('disabled'))
+			$nextBtn.addClass('disabled').text('Last Page');
 	} else {
-		if($prevBtn.hasClass('disabled')) {
-			$prevBtn.removeClass('disabled')
-		}
-		if($nextBtn.hasClass('disabled')) {
-			$nextBtn.removeClass('disabled')
-		}
+		if($prevBtn.hasClass('disabled'))
+			$prevBtn.removeClass('disabled').text('Prev Page');
+		if($nextBtn.hasClass('disabled'))
+			$nextBtn.removeClass('disabled').text('Next Page');
 	}
 	
 }
