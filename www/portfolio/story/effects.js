@@ -66,3 +66,7 @@ function pageTurn(e) {
 	}
 	
 }
+
+function sendMailTo() {
+	window.open('mailto:orionjburt@gmail.com?body='+encodeURI($('#oburt-email-body').val()));
+}

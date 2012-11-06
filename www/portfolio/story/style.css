@@ -164,8 +164,9 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
+	font-family: "futura-pt",sans-serif;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 54px;
 	line-height: 64px;
 	margin: 36px 0 48px 0;
 }
@@ -209,7 +210,8 @@ img.img-polaroid {
 }
 .header-right ul {
 	float: right;
-	width: 100%;
+	width: 96%;
+	padding-right: 4%;
 }
 .header-right li {
 	list-style: none;
@@ -218,6 +220,7 @@ img.img-polaroid {
 	font-size: 20px;
 	line-height: 51px;
 	font-weight: 800;
+	text-align: center;
 
 }
 .header-right a {
