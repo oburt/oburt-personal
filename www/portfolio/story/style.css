@@ -299,21 +299,21 @@ span.ultiworld {
 }
 
 /* iPhone Carousel */
-.fondu-iphone {
+.spoton-iphone, .fondu-iphone {
 	width: 122px;
 	height: 230px;
 	margin: 0 auto;
 	background: url('img/iphone_122x230.png');
 } 
-#fonduCarousel {
+#spotonCarousel, #fonduCarousel {
 	width: 99px;
 	top: 41px;
 	margin: 0 12px;
 }
-#fonduCarousel .carousel-control.left {
+#spotonCarousel .carousel-control.left, #fonduCarousel .carousel-control.left {
 	left: -80%;
 }
-#fonduCarousel .carousel-control.right {
+#spotonCarousel .carousel-control.right, #fonduCarousel .carousel-control.right {
 	left: 135%;
 }
 
