@@ -57,16 +57,22 @@
 	opacity: 0.35;
 }
 .content {
-	height: 660px;
+	height: 740px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.page {
+	display: none;
+	position: absolute;
 }
 .row-third {
-	height: 30%;
+	height: 240px;
 }
 .row-half {
-	height: 45%;
+	height: 360px;
 }
 .row-twothirds {
-	height: 60%;
+	height: 480px;
 }
 @media (min-width: 1200px) {
 	.content, .page {
@@ -134,13 +140,6 @@
 		margin-right: 5%;
 	}
 }
-.content {
-	margin-top: 40px;
-}
-.page {
-	display: none;
-	position: absolute;
-}
 body {
 	font-family: "museo-slab",serif;
 }
@@ -180,9 +179,9 @@ p.intro {
 	margin: 16px 0;
 }
 img.img-polaroid {
-	max-width: 95%;
+	max-width: 100%;
 	max-height: 100%;
-	margin: 1%;
+	margin: 0;
 }
 .header {
 	height: 80px;
