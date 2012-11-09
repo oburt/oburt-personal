@@ -23,7 +23,7 @@ $(document).ready( function() {
 	$('.page').addClass('tk-museo-slab');
 });
 
-function pageTurn(e) {
+function pageTurn() {
 	if($(this).hasClass('disabled')) {
 		return false;
 	}
