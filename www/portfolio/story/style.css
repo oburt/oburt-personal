@@ -325,10 +325,10 @@ span.airbnb {
 	margin: 0 12px;
 }
 #spotonCarousel .carousel-control.left, #fonduCarousel .carousel-control.left {
-	left: -80%;
+	left: -80px;
 }
 #spotonCarousel .carousel-control.right, #fonduCarousel .carousel-control.right {
-	left: 135%;
+	left: 130px;
 }
 
 /* Email Form */
