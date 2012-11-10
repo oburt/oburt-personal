@@ -1,4 +1,4 @@
-$headerHint = '';
+$headerHintToBeVisible = true;
 
 $(document).ready( function() {
 	$('#page0').load('page0.html');
@@ -13,13 +13,17 @@ $(document).ready( function() {
 	$('.header').hover(
 		function() {
 			$('.header-right').stop().animate({top:'0'}, function() {
-				if($headerHint.is(':visible')) {
-					$headerHint.fadeOut();
+				if($headerHintToBeVisible == true) {
+					$headerHintToBeVisible = false;
 				}
 			});
 		},
 		function() {
-			$('.header-right').stop().animate({top:'-68px'});
+			$('.header-right').stop().animate({top:'-68px'}, function() {
+				if($headerHintToBeVisible == false) {
+					$('.header-hint').fadeOut();
+				}
+			});
 		}
 	);
 
