@@ -1,3 +1,5 @@
+$headerHint = '';
+
 $(document).ready( function() {
 	$('#page0').load('page0.html');
 	$('#page1').load('page1.html');
@@ -10,7 +12,11 @@ $(document).ready( function() {
 
 	$('.header').hover(
 		function() {
-			$('.header-right').stop().animate({top:'0'});
+			$('.header-right').stop().animate({top:'0'}, function() {
+				if($headerHint.is(':visible')) {
+					$headerHint.fadeOut();
+				}
+			});
 		},
 		function() {
 			$('.header-right').stop().animate({top:'-68px'});
@@ -21,6 +27,7 @@ $(document).ready( function() {
 	$('.footer .progtog').click(pageTurn);
 	$('.header-right a').addClass('tk-futura-pt');
 	$('.page').addClass('tk-museo-slab');
+	$headerHint = $('.header-hint');
 });
 
 function pageTurn() {

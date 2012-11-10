@@ -225,6 +225,17 @@ img.img-polaroid {
 .header-right a {
 	vertical-align: sub;
 }
+.header-hint {
+	position: absolute;
+	top: 70px;
+	left: 350px;
+	color: #202020;
+	font-family: "futura-pt",sans-serif;
+	font-size: 8px;
+	line-height: 8px;
+	font-weight: 800;
+	z-index: 5;
+}
 
 /* Icon List */
 .oburt-icon-list a {
