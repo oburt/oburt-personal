@@ -59,7 +59,7 @@
 .content {
 	height: 740px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .page {
 	display: none;
@@ -295,6 +295,10 @@ span.ultiworld {
 	/*color: #C8252C;*/
 	/*color: #FF2F38;*/
 	color: #FF5961;
+}
+span.airbnb {
+	/*color: #49A2DF;*/
+	color: #A5D9FF;
 }
 
 /* iPhone Carousel */
