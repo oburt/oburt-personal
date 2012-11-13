@@ -1,10 +1,10 @@
 
 .footer {
-	width: 100%;
+	width: 1170px;
 	height: 40px;
 }
 .progtog-div {
-	width: 70%;
+	width: 826px;
 	height: 60px;
 	display: inline-block;
 	float: left;
@@ -74,71 +74,18 @@
 .row-twothirds {
 	height: 480px;
 }
-@media (min-width: 1200px) {
-	.content, .page {
-		height: 740px;
-	}
-	.footer .prev-div, .footer .next-div {
-		width: 172px;
-	}
-	.footer .progtog-div {
-		width: 826px;
-	}
-	.progtog {
-		margin-left: 49px;
-		margin-right: 49px;
-	}
+.content, .page {
+	height: 740px;
 }
-@media (min-width: 980px) and (max-width: 1199px) {
-	.content, .page {
-		height: 600px;
-	}
-	.footer .prev-div, .footer .next-div {
-		width: 141px;
-	}
-	.footer .progtog-div {
-		width: 658px;
-	}
-	.progtog {
-		margin-left: 39px;
-		margin-right: 39px;
-	}
+.footer .prev-div, .footer .next-div {
+	width: 172px;
 }
-@media (min-width: 768px) and (max-width: 979px) {
-	.content, .page {
-		height: 510px;
-	}
-	.progtog {
-		margin: 1% 5%;
-	}
-	.progtog:first-child {
-		margin-left: 11%;
-	}
-	.progtog:last-child {
-		margin-right: 11%;
-	}
+.footer .progtog-div {
+	width: 826px;
 }
-@media (max-width: 767px) {
-	.progtog {
-		margin: 1% 5%;
-	}
-	.progtog:first-child {
-		margin-left: 6%;
-	}
-	.progtog:last-child {
-		margin-right: 6%;
-	}
-}
-@media (max-width: 480px) {
-	.progtog {
-		margin: 1% 4%;
-	}
-	.progtog:first-child {
-		margin-left: 5%;
-	}
-	.progtog:last-child {
-		margin-right: 5%;
-	}
+.progtog {
+	margin-left: 49px;
+	margin-right: 49px;
 }
 body {
 	font-family: "museo-slab",serif;
@@ -189,7 +136,7 @@ img.img-polaroid {
 }
 .header-left {
 	height: 80px;
-	width: 31%;
+	width: 363px;
 	float: left;
 	color: #202020;
 	background-color: white;
@@ -202,20 +149,20 @@ img.img-polaroid {
 	top: -68px;
 	left: 0px;
 	height: 80px;
-	width: 69%;
+	width: 807px;
 	color: #202020;
 	background-color: white;
 	font-family: "futura-pt",sans-serif;
 }
 .header-right ul {
 	float: right;
-	width: 96%;
-	padding-right: 4%;
+	width: 775px;
+	padding-right: 32px;
 }
 .header-right li {
 	list-style: none;
 	float: right;
-	margin: 10px 4%;
+	margin: 10px 32px;
 	font-size: 20px;
 	line-height: 51px;
 	font-weight: 800;
@@ -227,14 +174,14 @@ img.img-polaroid {
 }
 .header-hint {
 	position: absolute;
-	top: 70px;
-	left: 350px;
-	color: #202020;
+	top: 32px;
+	left: 700px;
+	color: #444;
 	font-family: "futura-pt",sans-serif;
-	font-size: 8px;
-	line-height: 8px;
+	font-size: 20px;
+	line-height: 20px;
 	font-weight: 800;
-	z-index: 5;
+	z-index: -5;
 }
 
 /* Icon List */
@@ -336,7 +283,7 @@ span.airbnb {
 	margin-bottom: 24px;
 }
 .oburt-email-form textarea {
-	width: 98%;
+	width: 758px;
 	resize: none;
 	overflow: auto;
 	margin-bottom: 20px;

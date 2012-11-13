@@ -1,4 +1,4 @@
-$headerHintToBeVisible = true;
+$headerHintToBeVisible = 3;
 
 $(document).ready( function() {
 	$('#page0').load('page0.html');
@@ -13,15 +13,16 @@ $(document).ready( function() {
 	$('.header').hover(
 		function() {
 			$('.header-right').stop().animate({top:'0'}, function() {
-				if($headerHintToBeVisible == true) {
-					$headerHintToBeVisible = false;
+				if($headerHintToBeVisible == 3) {
+					$headerHintToBeVisible = 2;
 				}
 			});
 		},
 		function() {
 			$('.header-right').stop().animate({top:'-68px'}, function() {
-				if($headerHintToBeVisible == false) {
+				if($headerHintToBeVisible == 2) {
 					$('.header-hint').fadeOut();
+					$headerHintToBeVisible == 1;
 				}
 			});
 		}
@@ -32,6 +33,16 @@ $(document).ready( function() {
 	$('.header-right a').addClass('tk-futura-pt');
 	$('.page').addClass('tk-museo-slab');
 	$headerHint = $('.header-hint');
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-36289813-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
 });
 
 function pageTurn() {
@@ -41,20 +52,22 @@ function pageTurn() {
 
 	var currentPageNum = parseInt($('.page.active').attr('id').substring(4));
 	var newPageNum = parseInt($(this).attr('href').substring(5));
-	console.log('curr '+currentPageNum);
-	console.log('new '+newPageNum);
 
-	$('#page'+currentPageNum).removeClass('active').fadeOut();
-	$('#page'+newPageNum).addClass('active').fadeIn();
-
-	$('.page'+currentPageNum+'-progtog').removeClass('active');
-	$('.page'+newPageNum+'-progtog').addClass('active');
-	if(!$('.page'+newPageNum+'-progtog').hasClass('filled')) {
-		$('.page'+newPageNum+'-progtog').addClass('filled')
-	}
-	
+	var $currentPage = $('#page'+currentPageNum);
+	var $newPage = $('#page'+newPageNum);
+	var $currentPageProgtog = $('.page'+currentPageNum+'-progtog');
+	var $newPageProgtog = $('.page'+newPageNum+'-progtog');
 	var $prevBtn = $('.prev.btn');
 	var $nextBtn = $('.next.btn');
+
+	$currentPage.removeClass('active').fadeOut();
+	$newPage.addClass('active').fadeIn();
+
+	$currentPageProgtog.removeClass('active');
+	$newPageProgtog.addClass('active');
+	if(!$newPageProgtog.hasClass('filled')) {
+		$newPageProgtog.addClass('filled')
+	}
 
 	$prevBtn.attr('href','#page'+(newPageNum-1));
 	$nextBtn.attr('href','#page'+(newPageNum+1));
