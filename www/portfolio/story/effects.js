@@ -60,8 +60,9 @@ function pageTurn() {
 	var $prevBtn = $('.prev.btn');
 	var $nextBtn = $('.next.btn');
 
-	$currentPage.removeClass('active').fadeOut();
-	$newPage.addClass('active').fadeIn();
+	$currentPage.removeClass('active').fadeOut(function(){
+		$newPage.addClass('active').fadeIn();
+	});
 
 	$currentPageProgtog.removeClass('active');
 	$newPageProgtog.addClass('active');

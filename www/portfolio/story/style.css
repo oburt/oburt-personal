@@ -62,6 +62,7 @@
 	margin-bottom: 10px;
 }
 .page {
+	width: 1170px;
 	display: none;
 	position: absolute;
 }
@@ -236,27 +237,46 @@ span.skill {
 	/*color: #468847;*/
 	color: #4FE24F;
 }
+a span.skill:hover, a span.skill:active {
+	color: #339333;
+}
 span.time {
 	/*color: #3A87AD;*/
 	color: #59CAFF;
 }
+a span.time:hover, a span.time:active {
+	color: #3E8DB2;
+}
 span.nyu {
 	/*color: #57068C;*/
 	color: #BC59FF;
+}
+a span.nyu:hover, a span.nyu:active {
+	color: #823EB2;
 }
 span.fondu {
 	/*color: #6E3451;*/
 	/*color: #C45E91;*/
 	color: #FF59AC;
 }
+a span.fondu:hover, a span.fondu:active {
+	color: #B23E78;
+}
 span.ultiworld {
 	/*color: #C8252C;*/
 	/*color: #FF2F38;*/
 	color: #FF5961;
 }
+a span.ultiworld:hover, a span.ultiworld:active {
+	color: #B23E44;
+}
 span.airbnb {
 	/*color: #49A2DF;*/
 	color: #A5D9FF;
+}
+a span.time, a span.skill, a span.nyu, a span.fondu, a span.ultiworld {
+	/*text-decoration: underline;*/
+	font-weight: 700;
 }
 
 /* iPhone Carousel */
