@@ -13,7 +13,7 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".be-sidebar">
 	
 	<div class="be-header">
 		<div class="container">
@@ -30,10 +30,10 @@
 			<div class="row">
 				<div class="span12">
 					<ul>
-						<li><a class="<?php if($page === 'index') echo('active'); ?>" href="index.php">Our Promise</a></li>
-						<li><a class="<?php if($page === 'builders') echo('active'); ?>" href="builders.php">For Builders &amp; Architects</a></li>
-						<li><a class="<?php if($page === 'owners') echo('active'); ?>" href="owners.php">For Home Owners</a></li>
-						<li><a class="<?php if($page === 'contact') echo('active'); ?>" href="contact.php">Contact Us</a></li>
+						<li class="<?php if($page === 'index') echo('active'); ?>"><a href="index.php">Our Promise</a></li>
+						<li class="<?php if($page === 'builders') echo('active'); ?>"><a href="builders.php">For Builders &amp; Architects</a></li>
+						<li class="<?php if($page === 'owners') echo('active'); ?>"><a href="owners.php">For Home Owners</a></li>
+						<li class="<?php if($page === 'contact') echo('active'); ?>"><a href="contact.php">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
