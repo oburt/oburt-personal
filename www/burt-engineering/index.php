@@ -1,4 +1,3 @@
-
 <?php $page = 'index'; ?>
 <?php require_once('header.php'); ?>
 
