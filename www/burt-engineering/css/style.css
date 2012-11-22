@@ -1,8 +1,13 @@
 body {
 	background: #E6713B;
+	font-family: "ff-meta-serif-web-pro",serif;
 }
 h1 {
 	color: #E6713B;
+	font-family: "jaf-bernino-sans",sans-serif;
+}
+section {
+	margin-bottom: 60px;
 }
 .be-header {
 	background-color: white;
@@ -37,7 +42,7 @@ h1 {
 	color: white;
 	padding: 10px 0;
 }
-.be-navbar a:hover, .be-navbar a:active, .be-navbar a.active{
+.be-navbar a:hover, .be-navbar a:active, .be-navbar .active a {
 	color: white;
 	background: #777;
 	text-decoration: none;
@@ -68,6 +73,25 @@ h1 {
 }
 .be-index-photo p {
 	margin: 10px;
+}
+
+.be-sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.be-sidebar li {
+
+}
+.be-sidebar a {
+
+}
+.be-sidebar a:hover, .be-sidebar a:active, .be-sidebar .active a {
+	background: #E6713B;
+	color: white;
+}
+.be-sidebar .affix {
+	top: 20px;
 }
 
 .oburt-work {
