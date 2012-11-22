@@ -52,6 +52,9 @@ function pageTurn() {
 
 	var currentPageNum = parseInt($('.page.active').attr('id').substring(4));
 	var newPageNum = parseInt($(this).attr('href').substring(5));
+	if(currentPageNum == newPageNum) {
+		return false;
+	}
 
 	var $currentPage = $('#page'+currentPageNum);
 	var $newPage = $('#page'+newPageNum);
