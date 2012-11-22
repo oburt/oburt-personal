@@ -1,0 +1,77 @@
+body {
+	background: #E6713B;
+}
+h1 {
+	color: #E6713B;
+}
+.be-header {
+	background-color: white;
+	height: 100px;
+}
+/* CORRECT THIS UPON FINAL */
+.be-header .container {
+	background: url('/burt-engineering/img/bg_header.png') right top no-repeat;
+}
+.be-navbar {
+	background: #111;
+}
+.be-navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.be-navbar li {
+	width: 24.87%;
+	float: left;
+	line-height: 28px;
+	font-size: 16px;
+	border-right: 2px solid white;
+}
+.be-navbar li:last-child {
+	border-right: none;
+}
+.be-navbar a {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	color: white;
+	padding: 10px 0;
+}
+.be-navbar a:hover, .be-navbar a:active, .be-navbar a.active{
+	color: white;
+	background: #777;
+	text-decoration: none;
+}
+.be-content .container {
+	background: white;
+	padding-bottom: 60px;
+}
+.be-footer {
+	height: 48px;
+	background: #777;
+}
+
+.be-index-letter {
+	padding: 40px 10%;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: serif;
+}
+.be-index-letter p {
+	margin-bottom: 30px;
+}
+.be-index-photo {
+	font-size: 12px;
+}
+.be-index-photo img {
+	width: 360px;
+}
+.be-index-photo p {
+	margin: 10px;
+}
+
+.oburt-work {
+	color: white;
+	text-align: right;
+	margin: 24px 20px 0 0;
+}
