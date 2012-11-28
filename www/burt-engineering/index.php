@@ -5,11 +5,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="span12">
-					<img src="http://placehold.it/1170x200" />
+					<img src="img/house-banner-1170x200.jpg" />
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
-				<div class="span6">
+				<div class="span5 offset1">
 					<div class="be-index-letter">
 						<p>
 							For over fifteen years, our motto has been 'Helping You Build Well'. For me that has always meant an absolute commitment to provide code compliant, economical, and dependable structures that safeguard life and property.

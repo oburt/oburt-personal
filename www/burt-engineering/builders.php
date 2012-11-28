@@ -4,22 +4,25 @@
 	<div class="be-content">
 		<div class="container">
 			<div class="row">
-				<div class="span12">
-					<img src="http://placehold.it/1170x200" />
+				<div class="span12 be-banner-builders">
+					<p>
+						Our designs creatively adapt to form and function, use sustainable design concepts, and include performance-based engineering. Acting as prime or sub-consultant, we can provide schematic design, design development, structural drawings, calculations, specifications, and construction administration services.
+					</p>
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
 				<div class="span3 be-sidebar">
-					<ul class="nav" data-spy="affix" data-offset-top="360">
-						<li><a href="#seismic-strengthening">Seismic Strengthening</a></li>
+					<ul class="nav" data-spy="affix" data-offset-top="348">
+						<li class="active"><a href="#commercial-design">Commercial Design</a></li>
 						<li><a href="#timber-framing">Timber Framing</a></li>
 						<li><a href="#historic-preservation">Historic Preservation</a><li>
+						<li><a href="#seismic-strengthening">Seismic Strengthening</a><li>
 					</ul>
 				</div>
 				<div class="span9">
-					<section id="seismic-strengthening" class="row">
+					<section id="commercial-design" class="row">
 						<div class="span5">
-							<h2>Seismic Strengthening</h2>
+							<h2>Commercial Design</h2>
 							<h3>Starbucks, Renton, WA</h3>
 							<p>
 								This project at Exit 7 in Renton was a new reinforced concrete masonry unit retail building for a Starbucks anchor tenant. The building is approximately 2,900 sq ft, and was designed to fit neatly into an odd shaped lot. It features a drive up window, and a tower that stands proud of the roof plane for displaying the classic Starbucks logo.
@@ -69,6 +72,23 @@
 							<a href="#" class="thumbnail">
 								<img src="img/cabin-older-as-built.jpg" />
 							</a>
+						</div>
+					</section>
+					<section id="seismic-strengthening" class="row">
+						<div class="span4">
+							<a href="#" class="thumbnail">
+								<img src="img/sammamish-retaining-structure.jpg" />
+							</a>
+						</div>
+						<div class="span5">
+							<h2>Seismic Strengthening</h2>
+							<h3>Sammamish River Soil Retaining Structure</h3>
+							<p>
+								A retaining wall at the top of a steep slope environmentally critical area above the Sammamish river valley in Woodinville. The wall was failing, sliding downward as the top of the slope was subsiding.
+							</p>
+							<p>
+								Working closely with the geotechnical engineers at Nelson Geotechnical Associates, we designed a pressure grouted tie-back system to laterally anchor the wall above the global failure plane. The wall is supported horizontally by a waler and vertically by pipe piles. Equipment access was limited, so the design had to accommodate that challenge.
+							</p>
 						</div>
 					</section>
 				</div>

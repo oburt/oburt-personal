@@ -1,6 +1,7 @@
 body {
 	background: #E6713B;
 	font-family: "ff-meta-serif-web-pro",serif;
+	font-size: 16px;
 }
 h1 {
 	color: #E6713B;
@@ -57,7 +58,7 @@ section {
 }
 
 .be-index-letter {
-	padding: 40px 10%;
+	padding: 40px 0;
 	font-size: 20px;
 	line-height: 26px;
 	font-family: serif;
@@ -75,23 +76,56 @@ section {
 	margin: 10px;
 }
 
+.be-sidebar {
+	position: relative;
+}
 .be-sidebar ul {
+	text-align:right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	width:inherit;
 }
 .be-sidebar li {
-
+	width:inherit;
 }
 .be-sidebar a {
-
+	display:block;
+	width:80%;
+	padding:10px 10%;
 }
-.be-sidebar a:hover, .be-sidebar a:active, .be-sidebar .active a {
+.be-sidebar ul li a:hover {
+	background: #777;
+	color: white;
+}
+.be-sidebar ul li a:active, .be-sidebar ul li.active a {
 	background: #E6713B;
 	color: white;
 }
-.be-sidebar .affix {
-	top: 20px;
+.be-sidebar > .affix-top {
+	position: absolute;
+}
+.be-sidebar > .affix {
+	top: 30px;
+}
+
+/* CORRECT THIS UPON FINAL */
+/*Header Image Divs */
+.be-banner-owners {
+	background: url('/burt-engineering/img/hoffman-house-banner-mod7-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-builders {
+	background: url('/burt-engineering/img/construction-banner-mod7-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-owners p, .be-banner-builders p {
+	height: inherit;
+	width: 60%;
+	padding: 40px 20% 0;
+	font-size: 20px;
+	line-height: 24px;
+	font-style: italic;
 }
 
 .oburt-work {

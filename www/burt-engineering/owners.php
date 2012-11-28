@@ -4,15 +4,17 @@
 	<div class="be-content">
 		<div class="container">
 			<div class="row">
-				<div class="span12">
-					<img src="http://placehold.it/1170x200" />
+				<div class="span12 be-banner-owners">
+					<p>
+						Our core team is small on purpose: we want to focus on you, our client and partner. With a combined 80 years as civil engineers, we have the experience to help you with just about anything. We can work with all size of projects: from a pre-purchase investigation all the way up to full property remodel.
+					</p>
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
 				<div class="span3 be-sidebar">
-					<ul class="nav" data-spy="affix" data-offset-top="360">
-						<li><a href="#seismic-evaluation">Seismic Evaluation and Analysis</a></li>
-						<li><a href="#project-management">Project Management</a></li>
+					<ul class="nav" data-spy="affix" data-offset-top="348">
+						<li class="active"><a href="#seismic-evaluation">Seismic Evaluation and Analysis</a></li>
+						<li><a href="#sustainable-design">Sustainable Design</a></li>
 						<li><a href="#peer-review">Peer Review/Value Engineering</a><li>
 						<li><a href="#pre-investigations">Pre-lease/Pre-purchase Investigations</a><li>
 					</ul>
@@ -38,23 +40,23 @@
 							</a>
 						</div>
 					</section>
-					<section id="project-management" class="row">
+					<section id="sustainable-design" class="row">
 						<div class="span4">
 							<a href="#" class="thumbnail">
-								<img src="img/sammamish-retaining-structure.jpg" />
+								<img src="img/swauk-ranch.jpg" />
 							</a>
 						</div>
 						<div class="span5">
-							<h2>Project Management</h2>
-							<h3>Sammamish River Soil Retaining Structure</h3>
+							<h2>Sustainable Design</h2>
+							<h3>Swauk Ranch</h3>
 							<p>
-								A retaining wall at the top of a steep slope environmentally critical area in above the Sammamish river valley in Woodinville. The wall was failing, sliding downward as the top of the slope was subsiding.
+								This is a new structure that is comprised of 5 buildings attached in a row. This building is built green. The trusses shown are site built from heavy timber, 50% of which was milled on site and the rest was from old growth lumber reclaimed from a 100 year old warehouse in Seattle.
 							</p>
 							<p>
-								Working closely with the geotechnical engineers at Nelson Geotechnical Associates, we designed a pressure grouted tie-back system to laterally anchor the wall above the global failure plane. The wall is supported horizontally by a waler and vertically by pipe piles. Equipment access was limited, so the design had to accommodate that challenge.
+								The trusses span 40 feet, supporting an 80 psf roof snow load. The trusses feature a clerestory, letting natural light in. The building includes a ranch maintenance shop, office space, and a small residence.
 							</p>
 							<p>
-								Our project management services are offered to clients in need of assistance with a complex hazard mitigation program.
+								The project also includes a wind turbine generator to reduce demand on the grid.
 							</p>
 						</div>
 					</section>
