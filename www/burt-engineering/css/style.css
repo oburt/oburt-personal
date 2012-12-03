@@ -142,6 +142,22 @@ section.closer p {
 	font-style: italic;
 }
 
+.be-contact-area {
+	margin-top: 60px;
+}
+.be-contact-area p {
+	margin-bottom: 40px;
+}
+.be-contact-area label, .be-contact-area button {
+	text-transform: uppercase;
+}
+.be-contact-area label, .be-contact-area button, .be-contact-area input, .be-contact-area textarea {
+	font-family: "ff-dagny-web-pro",sans-serif;
+}
+#message-form {
+	padding-top: 39px;
+}
+
 /* CORRECT THIS UPON FINAL */
 /*Header Image Divs */
 .be-banner-index {

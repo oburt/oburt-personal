@@ -8,12 +8,12 @@
 
 				</div>
 			</div>
-			<div class="row" style="margin-top:30px;">
+			<div class="row be-contact-area">
 				<div class="span8 offset2">
 					<p>
-						If you have any questions, are looking for a quote, or just need more information, we would love to hear from you. Please call us at <a href="tel:1-206-779-6856">(206) 779-6856</a>, email us at <a href="mailto:cb@burtengineering.com">cb@burtengineering.com</a>, or send a message <a href="#message-form">using the form below</a>.
+						If you have any questions, are looking for a quote, or just need more information, we would love to hear from you. Please call us at <a href="tel:1-206-779-6856">(206) 779-6856</a>, email us at <a href="mailto:cb@burtengineering.com">cb@burtengineering.com</a>, or send a message using the form below.
 					</p>
-					<form id="message-form" class="form-horizontal">
+					<form id="message-form" class="form-horizontal well">
 						<div class="control-group">
 							<label class="control-label" for="inputName">Name</label>
 							<div class="controls">
