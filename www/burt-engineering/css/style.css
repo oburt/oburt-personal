@@ -1,14 +1,30 @@
 body {
 	background: #E6713B;
-	font-family: "ff-meta-serif-web-pro",serif;
-	font-size: 16px;
+	font-family: "ff-dagny-web-pro",sans-serif;
+	font-size: 21px;
+	line-height: 24px;
+}
+p {
+	margin-bottom: 16px;
 }
 h1 {
 	color: #E6713B;
-	font-family: "jaf-bernino-sans",sans-serif;
+	font-size: 42px;
+}
+h2, h3 {
+	text-align: center;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 32px;
+	text-rendering: auto;
+	text-transform: lowercase;
+	font-variant: small-caps;
 }
 section {
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 .be-header {
 	background-color: white;
@@ -21,29 +37,21 @@ section {
 .be-navbar {
 	background: #111;
 }
-.be-navbar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.be-navbar li {
-	width: 24.87%;
-	float: left;
-	line-height: 28px;
-	font-size: 16px;
-	border-right: 2px solid white;
-}
-.be-navbar li:last-child {
-	border-right: none;
-}
 .be-navbar a {
+	line-height: 28px;
+	font-size: 18px;
 	text-align: center;
 	width: 100%;
 	display: inline-block;
 	color: white;
 	padding: 10px 0;
 }
-.be-navbar a:hover, .be-navbar a:active, .be-navbar .active a {
+.be-navbar a:hover {
+	color: white;
+	background: #777;
+	text-decoration: none;
+}
+.be-navbar a:active, .be-navbar .active a {
 	color: white;
 	background: #777;
 	text-decoration: none;
@@ -61,7 +69,8 @@ section {
 	padding: 40px 0;
 	font-size: 20px;
 	line-height: 26px;
-	font-family: serif;
+	font-family: "ff-meta-serif-web-pro",serif;
+	font-style: italic;
 }
 .be-index-letter p {
 	margin-bottom: 30px;
@@ -92,7 +101,8 @@ section {
 .be-sidebar a {
 	display:block;
 	width:80%;
-	padding:10px 10%;
+	padding:12px 10%;
+	font-size: 18px;
 }
 .be-sidebar ul li a:hover {
 	background: #777;
@@ -108,6 +118,21 @@ section {
 .be-sidebar > .affix {
 	top: 30px;
 }
+section div > a {
+	margin-bottom: 16px;
+}
+span.be-location {
+	text-rendering: auto;
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+section.closer {
+	margin-bottom: 0;
+}
+section.closer p {
+	margin: 0;
+	font-style: italic;
+}
 
 /* CORRECT THIS UPON FINAL */
 /*Header Image Divs */
@@ -122,9 +147,7 @@ section {
 .be-banner-owners p, .be-banner-builders p {
 	height: inherit;
 	width: 60%;
-	padding: 40px 20% 0;
-	font-size: 20px;
-	line-height: 24px;
+	padding: 48px 20% 0;
 	font-style: italic;
 }
 
