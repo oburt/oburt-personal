@@ -27,11 +27,7 @@
 				<div class="span4 offset1">
 					<div class="be-index-photo thumbnail">
 						<img src="img/cb_deskside-300.jpg" />
-						<p>Mr. Burt holds a Master of Science in Civil Engineering from Washington State University. He is a state licensed Professional Engineer (WA LICENSE #38541) as well as being fully accredited as a Certified Building Plans Examiner by the International Code Council. Burt Engineering is also a proud member of the following organizations:
-
-						Structural Engineers Association of Washington
-						Master Builders Of Washington
-						American Institute Of Architects
+						<p>Mr. Burt holds a Master of Science in Civil Engineering from Washington State University. He is a state licensed Professional Engineer (WA LICENSE #38541) as well as being fully accredited as a Certified Building Plans Examiner by the International Code Council. Burt Engineering is also a proud member of the following organizations: <em>Structural Engineers Association of Washington, Master Builders Of Washington, American Institute Of Architects.</em>
 						</p>
 					</div>
 				</div>

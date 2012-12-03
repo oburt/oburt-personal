@@ -72,7 +72,7 @@ section {
 }
 
 .be-index-letter {
-	padding: 40px 0;
+	padding: 75px 0 0;
 	font-size: 20px;
 	line-height: 26px;
 	font-family: "ff-meta-serif-web-pro",serif;
@@ -83,6 +83,8 @@ section {
 }
 .be-index-photo {
 	font-size: 12px;
+	line-height: 15px;
+	text-align: justify;
 }
 .be-index-photo img {
 	width: 360px;
@@ -168,5 +170,5 @@ section.closer p {
 .oburt-work {
 	color: white;
 	text-align: right;
-	margin: 24px 20px 0 0;
+	margin: 20px 20px 0 0;
 }
