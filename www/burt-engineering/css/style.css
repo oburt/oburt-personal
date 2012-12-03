@@ -10,6 +10,11 @@ p {
 h1 {
 	color: #E6713B;
 	font-size: 42px;
+	line-height: 50px;
+	margin-bottom: 0;
+}
+address {
+	font-size: 18px;
 }
 h2, h3 {
 	text-align: center;
