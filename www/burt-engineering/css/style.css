@@ -15,6 +15,7 @@ h1 {
 }
 address {
 	font-size: 18px;
+	color: #08C;
 }
 h2, h3 {
 	text-align: center;
@@ -141,6 +142,14 @@ section.closer p {
 
 /* CORRECT THIS UPON FINAL */
 /*Header Image Divs */
+.be-banner-index {
+	background: url('/burt-engineering/img/house-banner-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
+.be-banner-contact {
+	background: url('/burt-engineering/img/gazebo-banner-1170x200.jpg') center top no-repeat;
+	height: 200px;
+}
 .be-banner-owners {
 	background: url('/burt-engineering/img/hoffman-house-banner-mod7-1170x200.jpg') center top no-repeat;
 	height: 200px;

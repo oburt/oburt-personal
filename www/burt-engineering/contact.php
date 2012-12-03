@@ -4,8 +4,8 @@
 	<div class="be-content">
 		<div class="container">
 			<div class="row">
-				<div class="span12">
-					<img src="img/gazebo-banner-1170x200.jpg" />
+				<div class="span12 be-banner-contact">
+
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
