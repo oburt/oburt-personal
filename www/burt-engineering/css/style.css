@@ -72,25 +72,41 @@ section {
 }
 
 .be-index-letter {
-	padding: 75px 0 0;
-	font-size: 20px;
-	line-height: 26px;
+	padding: 30px 0 30px 0;
+	font-size: 21px;
+	line-height: 27px;
 	font-family: "ff-meta-serif-web-pro",serif;
 	font-style: italic;
 }
 .be-index-letter p {
 	margin-bottom: 30px;
 }
-.be-index-photo {
-	font-size: 12px;
-	line-height: 15px;
+.be-index-photo, .be-index-closer {
+	font-size: 16px;
+	line-height: 22px;
 	text-align: justify;
 }
-.be-index-photo img {
-	width: 360px;
+.be-index-photo img, .be-index-closer img {
+	width: 27%;
 }
-.be-index-photo p {
-	margin: 10px;
+.be-index-photo p, .be-index-closer p {
+	margin: 54px 3%;
+	width: 67%;
+	float: right;
+}
+.be-index-closer {
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+.be-index-closer p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.be-index-closer p:first-child {
+	margin-top: 40px;
+}
+.be-index-closer p:last-child {
+	margin-bottom: 20px;
 }
 
 .be-sidebar {
