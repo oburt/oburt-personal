@@ -16,8 +16,8 @@
 
 <body data-spy="scroll" data-target=".be-sidebar">
 	
-	<div class="be-header">
-		<div class="container">
+	<div class="container">
+		<div class="be-header">
 			<div class="row">
 				<div class="span12">
 					<h1>Burt Engineering</h1>
@@ -26,8 +26,8 @@
 			</div>
 		</div>
 	</div>
-	<nav class="be-navbar">
-		<div class="container">
+	<div class="container">
+		<nav class="be-navbar">
 			<div class="row">
 				<div class="span3 <?php if($page === 'index') echo('active'); ?>">
 					<a href="index.php">Our Promise</a>
@@ -42,5 +42,5 @@
 					<a href="contact.php">Contact Us</a>
 				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
+	</div>
