@@ -91,6 +91,13 @@
 							</p>
 						</div>
 					</section>
+					<section class="row closer">
+						<div class="span6 offset1">
+							<p>
+								If you'd like to know more about these or any other projects, call us at <a href="tel:1-206-779-6856">(206) 779-6856</a> or email us at <a href="mailto:cb@burtengineering.com">cb@burtengineering.com</a>.
+							</p>
+						</div>
+					</section>
 				</div>
 			</div>
 		</div>
