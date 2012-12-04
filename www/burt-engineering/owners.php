@@ -21,11 +21,18 @@
 				</div>
 				<div class="span9">
 					<section id="seismic-evaluation" class="row">
-						<div class="span5">
+						<div class="span8">
 							<h2>Seismic Evaluation and Analysis</h2>
 							<h3>Tatwai House</h3>
+							<div class="row">
+								<div class="span6 offset1">
+									<a href="#" class="thumbnail">
+										<img src="img/tatwai-house.jpg" />
+									</a>
+								</div>
+							</div>
 							<p>
-								We modernized and practically doubled the size of this house, using a wood framed seismic resistance system with a mostly new foundation system and engineered lumber to support the 2nd story.
+								<span class="be-location">Seattle, WA</span> &mdash; We modernized and practically doubled the size of this house, using a wood framed seismic resistance system with a mostly new foundation system and engineered lumber to support the 2nd story.
 							</p>
 							<p>
 								The site was underlain with poorly draining soil and had to be de-watered prior to construction.
@@ -34,23 +41,20 @@
 								Burt Engineering also provides nonstructural design as needed to achieve specific seismic performance requirement as well as blast resistant design services as an extension of proper earthquake resistant design.
 							</p>
 						</div>
-						<div class="span4">
-							<a href="#" class="thumbnail">
-								<img src="img/tatwai-house.jpg" />
-							</a>
-						</div>
 					</section>
 					<section id="sustainable-design" class="row">
-						<div class="span4">
-							<a href="#" class="thumbnail">
-								<img src="img/swauk-ranch.jpg" />
-							</a>
-						</div>
-						<div class="span5">
+						<div class="span8">
 							<h2>Sustainable Design</h2>
 							<h3>Swauk Ranch</h3>
+							<div class="row">
+								<div class="span6 offset1">
+									<a href="#" class="thumbnail">
+										<img src="img/swauk-ranch.jpg" />
+									</a>
+								</div>
+							</div>
 							<p>
-								This is a new structure that is comprised of 5 buildings attached in a row. This building is built green. The trusses shown are site built from heavy timber, 50% of which was milled on site and the rest was from old growth lumber reclaimed from a 100 year old warehouse in Seattle.
+								<span class="be-location">Seattle, WA</span> &mdash; This is a new structure that is comprised of 5 buildings attached in a row. This building is built green. The trusses shown are site built from heavy timber, 50% of which was milled on site and the rest was from old growth lumber reclaimed from a 100 year old warehouse in Seattle.
 							</p>
 							<p>
 								The trusses span 40 feet, supporting an 80 psf roof snow load. The trusses feature a clerestory, letting natural light in. The building includes a ranch maintenance shop, office space, and a small residence.
@@ -61,33 +65,29 @@
 						</div>
 					</section>
 					<section id="peer-review" class="row">
-						<div class="span5">
+						<div class="span8">
 							<h2>Peer Review/Value Engineering</h2>
 							<h3>Krompholz Residence</h3>
+							<a href="#" class="thumbnail">
+								<img src="img/krompholz-residence.jpg" />
+							</a>
 							<p>
-								Helped make a house accessible for a young handicapped man.
+								<span class="be-location">Seattle, WA</span> &mdash; Helped make a house accessible for a young handicapped man.
 							</p>
 							<p>
 								Peer review services balance the opinion of the reviewer and the design professionals of record, and are conducted in a manner that informs the owner of the issues in understandable language and the options to quickly remedy the disagreements.
 							</p>
 						</div>
-						<div class="span4">
-							<a href="#" class="thumbnail">
-								<img src="img/krompholz-residence.jpg" />
-							</a>
-						</div>
 					</section>
 					<section id="pre-investigations" class="row">
-						<div class="span4">
+						<div class="span8">
+							<h2>Pre-lease/Pre-purchase Investigations</h2>
+							<h3>School</h3>
 							<a href="#" class="thumbnail">
 								<img src="img/school.jpg" />
 							</a>
-						</div>
-						<div class="span5">
-							<h2>Pre-lease/Pre-purchase Investigations</h2>
-							<h3>School</h3>
 							<p>
-								We provide expert opinions on compliance with applicable and current codes and specific, understandable performance information needed for informed choices.
+								<span class="be-location">Seattle, WA</span> &mdash; We provide expert opinions on compliance with applicable and current codes and specific, understandable performance information needed for informed choices.
 							</p>
 						</div>
 					</section>
