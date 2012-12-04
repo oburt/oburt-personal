@@ -36,14 +36,8 @@ section {
 	background-color: white;
 	height: 100px;
 }
-h1, address {
-	margin-left: 30px;
-}
-.container {
-	background-color: white;
-}
 /* CORRECT THIS UPON FINAL */
-.container .be-header {
+.be-header .container  {
 	background: url('/burt-engineering/img/bg_header.png') right top no-repeat;
 }
 .be-navbar {
