@@ -85,14 +85,17 @@ section {
 	text-align: justify;
 }
 .be-index-photo img, .be-index-closer img {
+	display: inline-block;
+	vertical-align: middle;
 	width: 27%;
 }
 .be-index-photo p, .be-index-closer p {
+	display: inline-block;
+	vertical-align: middle;
 	font-size: 16px;
 	line-height: 22px;
-	margin: 54px 3%;
-	width: 67%;
-	float: right;
+	margin: 0 0 0 3%;
+	width: 64%;
 }
 .be-index-closer {
 	margin-top: 60px;
@@ -101,9 +104,6 @@ section {
 .be-index-closer p {
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-.be-index-closer p:first-child {
-	margin-top: 40px;
 }
 
 .be-sidebar {
@@ -207,16 +207,6 @@ section.closer p {
 @media (min-width: 980px) and (max-width: 1199px) {
 	.be-index-photo p, .be-index-closer p {
 		line-height: 20px;
-		margin: 6px 3%;
-	}
-	.be-index-photo p {
-		margin-top: 18px;
-	}
-	.be-index-closer p:first-child {
-		margin-top: 20px;
-	}
-	.be-index-closer p:last-child {
-		margin-bottom: 14px;
 	}
 	.be-banner-owners p, .be-banner-builders p {
 		margin-top: 30px;
@@ -247,12 +237,8 @@ section.closer p {
 		line-height: 24px
 	}
 	.be-index-photo p, .be-index-closer p {
-		margin: 4px 3%;
 		font-size: 12px;
 		line-height: 16px;
-	}
-	.be-index-photo p:first-child, .be-index-closer p:first-child {
-		margin-top: 12px;
 	}
 	.be-banner-owners p, .be-banner-builders p {
 		margin-top: 38px;
@@ -291,12 +277,8 @@ section.closer p {
 		padding-bottom: 10px;
 	}
 	.be-index-photo p, .be-index-closer p {
-		margin: 4px 3%;
-		font-size: 11px;
-		line-height: 14px;
-	}
-	.be-index-photo p:first-child, .be-index-closer p:first-child {
-		margin-top: 0;
+		font-size: 12px;
+		line-height: 16px;
 	}
 	.be-banner-owners p, .be-banner-builders p {
 		margin: 0;
@@ -316,5 +298,8 @@ section.closer p {
 }
 
 @media (max-width: 480px) {
-
+	.be-index-photo p, .be-index-closer p {
+		font-size: 11px;
+		line-height: 14px;
+	}
 }
