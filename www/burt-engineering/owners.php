@@ -11,8 +11,16 @@
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
-				<div class="span3 be-sidebar">
+				<div class="span3 be-sidebar hidden-phone">
 					<ul class="nav" data-spy="affix" data-offset-top="348">
+						<li class="active"><a href="#seismic-evaluation">Seismic Evaluation and Analysis</a></li>
+						<li><a href="#sustainable-design">Sustainable Design</a></li>
+						<li><a href="#peer-review">Peer Review/Value Engineering</a><li>
+						<li><a href="#pre-investigations">Pre-lease/Pre-purchase Investigations</a><li>
+					</ul>
+				</div>
+				<div class="span3 be-sidebar visible-phone">
+					<ul class="nav">
 						<li class="active"><a href="#seismic-evaluation">Seismic Evaluation and Analysis</a></li>
 						<li><a href="#sustainable-design">Sustainable Design</a></li>
 						<li><a href="#peer-review">Peer Review/Value Engineering</a><li>

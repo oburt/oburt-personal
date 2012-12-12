@@ -11,8 +11,16 @@
 				</div>
 			</div>
 			<div class="row" style="margin-top:30px;">
-				<div class="span3 be-sidebar">
+				<div class="span3 be-sidebar hidden-phone">
 					<ul class="nav" data-spy="affix" data-offset-top="348">
+						<li class="active"><a href="#commercial-design">Commercial Design</a></li>
+						<li><a href="#timber-framing">Timber Framing</a></li>
+						<li><a href="#historic-preservation">Historic Preservation</a><li>
+						<li><a href="#seismic-strengthening">Seismic Strengthening</a><li>
+					</ul>
+				</div>
+				<div class="span3 be-sidebar visible-phone">
+					<ul class="nav">
 						<li class="active"><a href="#commercial-design">Commercial Design</a></li>
 						<li><a href="#timber-framing">Timber Framing</a></li>
 						<li><a href="#historic-preservation">Historic Preservation</a><li>

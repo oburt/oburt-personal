@@ -81,15 +81,15 @@ section {
 .be-index-letter p {
 	margin-bottom: 30px;
 }
-.be-index-photo, .be-index-closer {
-	font-size: 16px;
-	line-height: 22px;
+.be-index-photo {
 	text-align: justify;
 }
 .be-index-photo img, .be-index-closer img {
 	width: 27%;
 }
 .be-index-photo p, .be-index-closer p {
+	font-size: 16px;
+	line-height: 22px;
 	margin: 54px 3%;
 	width: 67%;
 	float: right;
@@ -104,9 +104,6 @@ section {
 }
 .be-index-closer p:first-child {
 	margin-top: 40px;
-}
-.be-index-closer p:last-child {
-	margin-bottom: 20px;
 }
 
 .be-sidebar {
@@ -193,9 +190,8 @@ section.closer p {
 	height: 200px;
 }
 .be-banner-owners p, .be-banner-builders p {
-	height: inherit;
 	width: 60%;
-	padding: 48px 20% 0;
+	margin: 48px 20% 0;
 	font-style: italic;
 }
 
@@ -203,4 +199,122 @@ section.closer p {
 	color: white;
 	text-align: right;
 	margin: 20px 20px 0 0;
+}
+
+
+/* Responsive Design */
+/* Medium desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+	.be-index-photo p, .be-index-closer p {
+		line-height: 20px;
+		margin: 6px 3%;
+	}
+	.be-index-photo p {
+		margin-top: 18px;
+	}
+	.be-index-closer p:first-child {
+		margin-top: 20px;
+	}
+	.be-index-closer p:last-child {
+		margin-bottom: 14px;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin-top: 30px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	h1 {
+		font-size: 37px;
+	}
+	h2, h3 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	address {
+		font-size: 17px;
+	}
+	.be-navbar a, .be-sidebar a {
+		font-size: 16px;
+	}
+	.be-index-letter {
+		font-size: 18px;
+		line-height: 24px
+	}
+	.be-index-photo p, .be-index-closer p {
+		margin: 4px 3%;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.be-index-photo p:first-child, .be-index-closer p:first-child {
+		margin-top: 12px;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin-top: 38px;
+	}
+	.be-contact-area textarea.span5 {
+		width: 206px;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	body {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	h2, h3 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	address {
+		font-size: 14px;
+	}
+	h1, address {
+		text-align: center;
+	}
+	.be-navbar a, .be-sidebar a {
+		font-size: 16px;
+	}
+	.be-index-letter {
+		font-size: 15px;
+		line-height: 21px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.be-index-photo p, .be-index-closer p {
+		margin: 4px 3%;
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.be-index-photo p:first-child, .be-index-closer p:first-child {
+		margin-top: 0;
+	}
+	.be-banner-owners p, .be-banner-builders p {
+		margin: 0;
+		width: auto;
+		padding: 7% 5%;
+	}
+	.be-contact-area {
+		margin-top: 40px;
+	}
+	.be-contact-area textarea.span5 {
+		width: 220px;
+	}
+	p, section.closer p {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media (max-width: 480px) {
+
 }
