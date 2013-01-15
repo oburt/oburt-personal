@@ -29,7 +29,7 @@ $(document).ready( function() {
 			$('.header-right').stop().animate({top:'-68px'}, function() {
 				if($headerHintToBeVisible == 1) {
 					$('.header-hint').fadeOut();
-					$headerHintToBeVisible == 0;
+					$headerHintToBeVisible = 0;
 				}
 			});
 		}
